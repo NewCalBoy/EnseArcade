@@ -3,7 +3,7 @@
 set -u
 
 # Utilise le premier argument comme chemin vidéo, ou le chemin par défaut.
-VIDEO="${1:-/home/admin/RetroPie/splashscreens/intro_ensearcade.mp4}"
+VIDEO="${1:-/home/admin/RetroPie/splashscreens/Intro_arcade_Vfinale.mp4}"
 
 # Vérifie les dépendances avant de démarrer la borne.
 if ! command -v cvlc >/dev/null 2>&1; then
